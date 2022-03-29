@@ -1,0 +1,154 @@
+*{
+    margin:0px;
+}
+body{
+    background-color: #faf3e6 !important;
+}
+.bhoot{
+    background-color: #26f5a6 !important;
+
+    height: 60px;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.no_hov:hover {
+  background-color: black;
+  color: white;
+}
+.bar {
+  background-color: #50ffff;
+  margin-left: 60%;
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+  border-radius: 15px 12px 20px;
+  height: 55px;
+  z-index: 1;
+  position: absolute;
+  color: black;
+  padding-top: 0.5%;
+}
+.LHead{
+    background-color: #FFB9B9;
+    padding:20px;
+    justify-content:center;
+    display:flex;
+    width: 40%;
+    font-weight: bolder;
+    font-size: 41px;
+    color: #FFFFFF;
+    margin-top: 161px;
+    border-radius:0px 15px 15px 0px;
+}
+.RHead{
+    background-color: #9df5cc;
+    padding:20px;
+    justify-content:center;
+    display:flex;
+    width: 40%;
+    margin-left: 60%;
+    font-weight: bolder;
+    font-size: 41px;
+    color: #FFFFFF;
+    margin-top: 161px;
+    border-radius:15px 0px 0px 15px;
+
+}
+.caro{
+    padding: 0px 10em;
+    background-color: #000000 !important ;
+    width: 100% !important;
+    height: 50em !important;
+}
+.am{
+    position: relative;
+}
+.card{
+    background-color: white;
+    border-radius: 15px 20px 30px;
+    z-index: 1;
+    padding-top: 20px;
+    position: absolute !important;
+    width: 500px;
+    height: 500px;
+    left: 72px;
+    top: 171px;
+}
+.cardDetail{
+    position: absolute;
+width: 602px;
+height: 300px;
+left: 97px;
+top: 434px;
+
+font-family: Satisfy;
+font-style: normal;
+font-weight: normal;
+font-size: 32px;
+line-height: 46px;
+color: #230404;
+}
+.im{
+    width: 1105px;
+    height: 700px;
+  
+}
+.litem{
+    display: flex;
+    flex-direction: column;
+}
+.p1{
+    display: flex;
+    margin-bottom: 10em;
+}
+.p2{
+    display: flex;
+    margin-left:10em;
+    margin-bottom: 10em;
+    
+}
+.l-about{
+    display: flex;
+    flex-direction: column ;
+}
+.l-logo{
+  margin-left: 90px;
+}
+img.logo{
+    border-radius:100px;
+    padding: 60px;
+
+}
+.r-logo{
+    padding-right: 6em;
+    padding-left:11em;
+}
+.r-about{
+    display:flex;
+    flex-direction:column;
+    justify-content:left;
+    align-content:left;
+    padding-left: 11em;
+}
+.l-about{
+    display:flex;
+    flex-direction:column;
+    justify-content:right;
+    align-content:right;
+}
+span.title{font-family: Scheherazade;font-style: normal;font-weight: bold;font-size: 84px;text-align: Acenter;letter-spacing: -0.025em;}
+.description{
+    font-family: Scheherazade;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    color: #000000;
+}
+.bigCard{
+    background-color: #ffffff;
+    padding-top:100px
+}
+pre{
+    background-color: white;
+}
