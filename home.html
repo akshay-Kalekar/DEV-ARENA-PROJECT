@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Site4you</title>
+    <link rel="stylesheet" href="./style/style.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <div class="topnav navCen" id="myTopnav">
+      <a class="elem"  href="#home" class="active">Home</a>
+      <a class="elem" href="#id">About</a>
+      <a class="elem" href="#connect">Connect</a>
+      <div class=" elem dropdown">
+        <button class=" dropbtn">Category
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="./Vidushi/educational.html">Resources</a>
+          <a href="./Udita/Image/entertainment.html">Entertainment</a>
+          <a href="./Shiva/code.html">Coding</a>
+          <a href="./Akshay/onlineTool.html">Online Tools</a>
+        </div>
+      </div> 
+    </div>
+    <div class="main">
+      <div id="home" class="landing">
+        <div class="headline">WELCOME TO SITE4U</div>
+        <div class="title">A PLACE WHERE YOU CAN FIND ALL YOUR NEED</div>
+      </div>
+    </div>
+    <div class="content">
+      <div class="black">
+          <div id='id'class="about">
+    <pre>
+        "A place where you can find all the tools to create, design and convert.
+        Gain immense of knowledge and reinovate things. A student friendly place
+        to have a go!!"
+    </pre>
+          </div>
+      </div>
+    
+      <!-- gorup 1 -->
+        <div class="mix book">
+        <div class="lImage">
+          <img src="./style/Image/book.png" alt="" class="book" />
+        </div>
+        <div class="rDescription">
+          <span class="header">Resources </span>
+          <span class="desc">
+            <pre>
+This page includes the websites related to books,
+projects Presentations and courses. All the things
+are given at one place so that it saves the user 
+from going to different sites. Glance through the
+site to find some interesting sites which you
+might don’t have an idea about.
+Moreover With one click you can directly be 
+redirected to the specific site.
+        </pre>
+          </span>
+        <a href="./Vidushi/educational.html">  <div class="gradient-btn btn-6"><span>View</span></div></a>
+        </div>
+    </div>
+    <div class="black">
+        <div class="leftAbout ">
+          <div class="lDescription">
+            <span class="header">Entertainment</span>
+            <span class="desc movleft">
+            <pre>
+Hard Work with no rewards is like acting without spectators -
+ in a nutshell, it’s boring.
+This page brings to you subsections of different ways in 
+which you can lighten up your mood ,choosing the right one 
+according to your interests.It includes free movie and web 
+series watching sites, games,anime, online chat and all of 
+them compiled in a single page so that you need not 
+stroll around searching them individually.
+            </pre>
+            </span>
+          <a href="./Udita/Image/entertainment.html"> <div class="gradient-btn btn-7"><span>View</span></div>  </a>  
+          </div>
+          <div class="rImage">
+            <img src="./style/Image/popcorn.png" alt="" srcset="" />
+          </div>
+        </div>
+    </div>
+    <!-- group-end -->
+          <!-- gorup 1 -->
+          <div class="mix book">
+            <div class="lImage ro">
+              <img src="./style/Image/robot.png" alt="" class="book" />
+            </div>
+            <div class="rDescription">
+              <span class="header">Coding </span>
+              <span class="desc">
+                <pre>
+If you are interested but don’t know anything about coding,
+then you are at the right place. This page has variety of 
+resources where you can learn coding and start solving problems.
+You will automatically be redirected to the websites with
+just a single click . This will save your time from surfing
+the internet and finding out the exact source.
+            </pre>
+              </span>
+             <a href="./Shiva/code.html"> <div class="gradient-btn btn-2"><span>View</span></div></a>
+            </div>
+        </div>
+        <div class="black">
+            <div class="leftAbout ">
+              <div class="lDescription">
+                <span class="header">Online Tools</span>
+                <span class="desc movleft">
+                <pre>
+Collection off all your day to day editing tools that require
+heavy ram and can we solved with online free site that gives
+premium features like offline sites
+Choose the site that suits your interests and compatible
+ with your device.
+                    
+                </pre>
+                </span>
+                <a href="./Akshay/onlineTool.html"><div class="gradient-btn btn-11"><span>View</span></div>
+           </a>     </div>
+              <div class="rImage">
+                <img src="./style/Image/geek.png" alt="" srcset="" />
+              </div>
+            </div>
+        </div>
+        <div class="connect">
+          <div class="heads" id="connect"><strong>Connect with us on</strong></div>
+          <div class="icons">
+              <div><img src="./style/Image/facebook-svgrepo-com.svg" alt="" class="itm"></div>
+              <div><img src="./style/Image/instagram-svgrepo-com.svg" alt="" class="itm"></div>
+              <div><img src="./style/Image/twitter-svgrepo-com.svg" alt="" class="itm"></div>
+             
+          </div>
+        <!-- group-end -->
+      </div>
+      
+      </div>
+    <div class="footer">
+        <div class="heads"> <strong> TELL US ABOUT YOU EXPERIENCE</strong></div>
+        <div class="form">
+            <form>      
+                <input name="name" type="text" class="feedback-input" placeholder="Name" />   
+                <input name="email" type="text" class="feedback-input" placeholder="Email" />
+                <textarea name="text" class="feedback-input" placeholder="Message"></textarea>
+                <input type="submit" value="SUBMIT"/>
+              </form>
+        </div>
+    </div>
+    <div class="js">
+      <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+        document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+          anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+
+            document.querySelector(this.getAttribute("href")).scrollIntoView({
+              behavior: "smooth",
+            });
+          });
+        });
+      </script>
+    </div>
+    <div class="remNavCen">
+      <script>
+        let matchMedia = window.matchMedia("(max-width:600px)");
+        if (matchMedia.matches) {
+          var element = document.getElementById("myTopnav");
+          element.classList.remove("navCen");
+        }
+      </script>
+    </div>
+  </body>
+</html>
