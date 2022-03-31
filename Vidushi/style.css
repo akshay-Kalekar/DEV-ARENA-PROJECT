@@ -126,6 +126,9 @@ color: white;
   background-color: black !important;
   text-decoration: none;
 }
+.navFix{
+  width:100vw;background:black;position: fixed;z-index: 999;
+}
  /*Nav bar*/
 
 /* Dropdown Button */
