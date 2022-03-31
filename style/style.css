@@ -496,46 +496,6 @@ body {
   }
   
 }
-@media(max-width:1024px){
-  .main .landing .headline {
-    font-size: 4.0rem;
-    font-weight: bolder;
-  }
-  
-  .main .landing .title {
-    font-size: 1.5rem;
-  }
-  .content .mix .rDescription .header {
-    font-size: 2.5rem;
-    font-weight: bolder;
-  }
-  
-  .content .mix .rDescription .desc {
-    font-size: 1rem;
-  }
-  
-  .content .mix .rDescription .gradient-btn {
-    font-size: 1.5.rem;
-  }
-  .content .leftAbout .lDescription .header {
-    font-size: 2.5rem;
-  }
-  
-  .content .leftAbout .lDescription .desc {
-    font-size: 1rem;
-  }
-  .content .mix .lImage img {
-    height: 60%;
-    width: 80%;
-  }
-  .content .leftAbout .rImage img {
-    height: 60%;
-    width: 80%;
-  }
-  .content .black .about {
-    font-size: 1.25rem;
-  }
-}
 @media(max-width:800px){
   .main .landing .headline {
     font-size: 4.0rem;
